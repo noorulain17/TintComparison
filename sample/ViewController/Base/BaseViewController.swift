@@ -39,10 +39,10 @@ class BaseViewController: UIViewController {
         
         horizontalStackViewLeft = createHorizontalStackView()
         horizontalStackViewRight = createHorizontalStackView()
-//        
-//        stackView.addArrangedSubview(horStackView1)
-//        stackView.addArrangedSubview(horStackView2)
+        
         view.addSubview(stackView)
+        stackView.addArrangedSubview(horizontalStackViewLeft!)
+        stackView.addArrangedSubview(horizontalStackViewRight!)
     }
     
     func createHorizontalStackView() -> UIStackView {
