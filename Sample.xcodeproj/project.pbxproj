@@ -10,6 +10,8 @@
 		803EFE37285BB1A700862786 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803EFE36285BB1A700862786 /* MainViewController.swift */; };
 		803EFE39285BB3CF00862786 /* ButtonsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803EFE38285BB3CF00862786 /* ButtonsViewController.swift */; };
 		803EFE3B285BCFE200862786 /* ImagesInLabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803EFE3A285BCFE200862786 /* ImagesInLabelViewController.swift */; };
+		803EFE58285BF2F100862786 /* TintType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803EFE57285BF2F100862786 /* TintType.swift */; };
+		803EFE5B285BF62E00862786 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803EFE5A285BF62E00862786 /* BaseViewController.swift */; };
 		80961CC2285A858900FE932D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80961CC1285A858900FE932D /* AppDelegate.swift */; };
 		80961CC4285A858900FE932D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80961CC3285A858900FE932D /* SceneDelegate.swift */; };
 		80961CC6285A858900FE932D /* ImagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80961CC5285A858900FE932D /* ImagesViewController.swift */; };
@@ -22,6 +24,8 @@
 		803EFE36285BB1A700862786 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		803EFE38285BB3CF00862786 /* ButtonsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsViewController.swift; sourceTree = "<group>"; };
 		803EFE3A285BCFE200862786 /* ImagesInLabelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesInLabelViewController.swift; sourceTree = "<group>"; };
+		803EFE57285BF2F100862786 /* TintType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TintType.swift; sourceTree = "<group>"; };
+		803EFE5A285BF62E00862786 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		80961CBE285A858900FE932D /* Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80961CC1285A858900FE932D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80961CC3285A858900FE932D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +47,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		803EFE55285BF2CF00862786 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				803EFE57285BF2F100862786 /* TintType.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		803EFE56285BF2DE00862786 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				803EFE36285BB1A700862786 /* MainViewController.swift */,
+				80961CC5285A858900FE932D /* ImagesViewController.swift */,
+				803EFE3A285BCFE200862786 /* ImagesInLabelViewController.swift */,
+				803EFE38285BB3CF00862786 /* ButtonsViewController.swift */,
+				803EFE59285BF62300862786 /* Base */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		803EFE59285BF62300862786 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				803EFE5A285BF62E00862786 /* BaseViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
 		80961CB5285A858900FE932D = {
 			isa = PBXGroup;
 			children = (
@@ -64,10 +96,8 @@
 			children = (
 				80961CC1285A858900FE932D /* AppDelegate.swift */,
 				80961CC3285A858900FE932D /* SceneDelegate.swift */,
-				803EFE36285BB1A700862786 /* MainViewController.swift */,
-				80961CC5285A858900FE932D /* ImagesViewController.swift */,
-				803EFE3A285BCFE200862786 /* ImagesInLabelViewController.swift */,
-				803EFE38285BB3CF00862786 /* ButtonsViewController.swift */,
+				803EFE56285BF2DE00862786 /* ViewController */,
+				803EFE55285BF2CF00862786 /* Models */,
 				80961CC7285A858900FE932D /* Main.storyboard */,
 				80961CCA285A858A00FE932D /* Assets.xcassets */,
 				80961CCC285A858A00FE932D /* LaunchScreen.storyboard */,
@@ -152,7 +182,9 @@
 				803EFE39285BB3CF00862786 /* ButtonsViewController.swift in Sources */,
 				80961CC4285A858900FE932D /* SceneDelegate.swift in Sources */,
 				803EFE3B285BCFE200862786 /* ImagesInLabelViewController.swift in Sources */,
+				803EFE5B285BF62E00862786 /* BaseViewController.swift in Sources */,
 				803EFE37285BB1A700862786 /* MainViewController.swift in Sources */,
+				803EFE58285BF2F100862786 /* TintType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
